@@ -1,6 +1,8 @@
 aid: apis-io-business-platform
 name: APIs.io Business Platform
 type: Platform
+position: Producer
+access: Internal
 description: |-
   This is an index of all of the services used to operate the business side of APIs.io, providing a single manifest of all the 3rd-party suppliers we depend on for digital resources and capabilities.
 tags:
