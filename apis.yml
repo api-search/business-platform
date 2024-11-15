@@ -14,7 +14,7 @@ url: http://example.com/apis.json
 specificationVersion: '0.18'
 apis:
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:linkedin
   name: LinkedIn
   description: LinkedIn is used as the primary business social network.
   humanURL: http://example.com
@@ -25,7 +25,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation                               
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:paypal
   name: Paypal
   description: Paypal is used for emailing invoicing and payments for business.
   humanURL: http://example.com
@@ -36,7 +36,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation   
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:stripe
   name: Stripe
   description: Stripe is used for seamless credit card payments for business.
   humanURL: http://example.com
@@ -47,7 +47,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation   
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:fastmail
   name: Fastmail
   description: Fastmail is used for business email.
   humanURL: http://example.com
@@ -58,7 +58,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation 
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:restream
   name: Restream
   description: Restream is used for podcast recording and streaming.
   humanURL: http://example.com
@@ -69,7 +69,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation     
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:zoom
   name: Zoom
   description: Zoom is used for virtual meetings and recordings.
   humanURL: http://example.com
@@ -80,7 +80,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:calendly
   name: Calendly
   description: Calendly is used for scheduling meetings.
   humanURL: http://example.com
@@ -91,7 +91,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:buttondown
   name: Buttondown
   description: Buttondown is used for the newsletter.
   humanURL: http://example.com
@@ -102,7 +102,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:formspree
   name: FormSpree
   description: FormSpree is used for forms.
   humanURL: http://example.com
@@ -113,18 +113,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
-  name: Miro
-  description: Miro is used for diagrams.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
-  tags:
-  - Social
-  properties:
-  - type: Documentation
-    url: https://example.com/documentation  
-
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:open-ai
   name: OpenAI
   description: OpenAI is used for writing API descriptions.
   humanURL: http://example.com
@@ -135,7 +124,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:youtube
   name: Youtube
   description: Youtube is used for publishing videos.
   humanURL: http://example.com
@@ -146,7 +135,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:soundcloud
   name: SoundCloud
   description: SoundCloud is used for publishing audio.
   humanURL: http://example.com
@@ -157,7 +146,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:apple-podcasts
   name: Apple Podcasts
   description: Apple Podcasts is used for publishing podcast.
   humanURL: http://example.com
@@ -168,7 +157,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:bitly
   name: Bitly
   description: Bitly is used for shortening links and analytics.
   humanURL: http://example.com
@@ -179,18 +168,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentation  
 
-- aid: apis-io-business-platform:amazon-s3
-  name: TwitPics
-  description: TwitPics is used for image and video hosting with analytics.
-  humanURL: http://example.com
-  baseURL: http://api.example.com
-  tags:
-  - Social
-  properties:
-  - type: Documentation
-    url: https://example.com/documentat
-
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:noun-project
   name: Noun Project
   description: Noun Project is used for icon catalog.
   humanURL: http://example.com
@@ -201,7 +179,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentat
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:google-analytics
   name: Google Analytics
   description: Google Analytics is used for analytics.
   humanURL: http://example.com
@@ -212,7 +190,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentat
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:google-docs
   name: Google Docs
   description: Google Docs is used for documents and spreadsheets..
   humanURL: http://example.com
@@ -223,7 +201,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentat
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:slack
   name: Slack
   description: Slack is used for messaging.
   humanURL: http://example.com
@@ -234,7 +212,7 @@ apis:
   - type: Documentation
     url: https://example.com/documentat
 
-- aid: apis-io-business-platform:amazon-s3
+- aid: apis-io-business-platform:docusign
   name: Docusign
   description: Docusign is used for signing document.
   humanURL: http://example.com
